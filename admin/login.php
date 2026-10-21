@@ -61,7 +61,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <div class="auth-field">
                 <label for="password">Password</label>
-                <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Password" required>
+                <div class="password-wrap">
+                    <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Password" required>
+                    <button class="password-toggle" type="button" aria-label="Show password" aria-pressed="false">
+                        <svg class="eye-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
+                        <svg class="eye-shut" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3l18 18"/><path d="M10.6 10.6a3 3 0 0 0 4.2 4.2"/><path d="M9.9 5.2A10.8 10.8 0 0 1 12 5c6.5 0 10 7 10 7a18.5 18.5 0 0 1-3.2 4.2"/><path d="M6.1 6.1C3.5 8 2 12 2 12s3.5 7 10 7a10.8 10.8 0 0 0 4.1-.8"/></svg>
+                    </button>
+                </div>
             </div>
             <button class="btn" type="submit">Enter offices</button>
             <details class="demo-accounts">
