@@ -1,0 +1,15 @@
+{
+  "model": "Linear Regression",
+  "features": [
+    "prelim_gwa",
+    "midterm_gwa"
+  ],
+  "intercept": 0.7083132638045981,
+  "coefficients": {
+    "prelim_gwa": 0.2701756605354447,
+    "midterm_gwa": 0.38651866060711326
+  },
+  "sample_size": 300,
+  "trained_at": "2026-10-11T17:59:13",
+  "synthetic_data": true
+}

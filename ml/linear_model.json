@@ -1,0 +1,24 @@
+{
+  "model": "Linear Regression",
+  "features": [
+    "attendance",
+    "recitation",
+    "activities",
+    "quizzes",
+    "project",
+    "exam"
+  ],
+  "intercept": 0.7007316182304351,
+  "coefficients": {
+    "attendance": 0.1043360126278503,
+    "recitation": 0.09192296564210432,
+    "activities": 0.13573192358855618,
+    "quizzes": 0.1642049691337127,
+    "project": 0.19627468860603312,
+    "exam": 0.2974872206781241
+  },
+  "trained_at": "2026-10-11 06:58:38",
+  "sample_size": 120,
+  "data_source": "historical_dummy_raw_scores.csv",
+  "synthetic_data": true
+}

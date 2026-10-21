@@ -1,0 +1,11 @@
+{
+  "model": "Linear Regression",
+  "mae": 0.184,
+  "r2": 0.6521,
+  "sample_size": 300,
+  "train_size": 240,
+  "test_size": 60,
+  "trained_at": "2026-10-11T17:59:13",
+  "data_source": "dummy_historical_gwa_training.csv",
+  "synthetic_data": true
+}

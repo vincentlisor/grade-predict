@@ -1,0 +1,11 @@
+{
+  "model": "Linear Regression",
+  "mae": 1.5061,
+  "r2": 0.8564,
+  "sample_size": 120,
+  "train_size": 96,
+  "test_size": 24,
+  "trained_at": "2026-10-11 06:58:38",
+  "data_source": "historical_dummy_raw_scores.csv",
+  "note": "Synthetic dummy data for development/testing only; not validated school records."
+}

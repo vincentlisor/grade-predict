@@ -1,0 +1,16 @@
+{
+  "model": "Linear Regression",
+  "stage": "Prelim-only",
+  "features": [
+    "prelim_gwa"
+  ],
+  "target": "actual_final_gwa",
+  "intercept": 0.4183750713607923,
+  "coefficients": {
+    "prelim_gwa": 0.7967991053450968
+  },
+  "gwa_min": 1.0,
+  "gwa_max": 5.0,
+  "synthetic_data": true,
+  "trained_at": "2026-10-11T18:57:51"
+}

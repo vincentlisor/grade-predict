@@ -1,0 +1,18 @@
+{
+  "model": "Linear Regression",
+  "stage": "Prelim + Midterm",
+  "features": [
+    "prelim_gwa",
+    "midterm_gwa"
+  ],
+  "target": "actual_final_gwa",
+  "intercept": -0.012176648544330426,
+  "coefficients": {
+    "prelim_gwa": 0.3921659612276721,
+    "midterm_gwa": 0.6151157334362688
+  },
+  "gwa_min": 1.0,
+  "gwa_max": 5.0,
+  "synthetic_data": true,
+  "trained_at": "2026-10-11T18:58:35"
+}

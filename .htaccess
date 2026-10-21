@@ -1,0 +1,22 @@
+<FilesMatch "^\.env">
+    Require all denied
+</FilesMatch>
+
+AddType text/css .css
+AddType application/javascript .js
+AddType image/png .png
+
+<FilesMatch "\.(css|js|png|jpe?g|gif|webp|svg|ico)$">
+    Require all granted
+</FilesMatch>
+
+DirectoryIndex index.php
+
+<IfModule mod_headers.c>
+    <Files "sw.js">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+    </Files>
+    <Files "manifest.php">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+    </Files>
+</IfModule>

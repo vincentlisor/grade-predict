@@ -1,0 +1,12 @@
+{
+  "model": "Linear Regression",
+  "stage": "Prelim-only",
+  "sample_size": 1000,
+  "train_size": 800,
+  "test_size": 200,
+  "mae": 0.1644,
+  "r2": 0.8361,
+  "data_source": "dummy_historical_gwa_training.csv",
+  "synthetic_data": true,
+  "trained_at": "2026-10-11T18:57:51"
+}
